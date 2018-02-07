@@ -1,0 +1,26 @@
+<!-- The modal -->
+<div class="modal fade" id="flipFlop" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                    <h4 class="modal-title" id="modalLabel">Укажите данные</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+            </div>
+            <div class="row justify-content-center">
+                <div class="co-8">
+                    <div class="modal-body">
+                        <form class="modal__form form" action="/ok/" method="get">
+                            <label class="form__label" for="phone">Телефон</label>
+                            <input class="form__input" type="text" name="phone" placeholder="Телефон">
+                            <label class="form__label" for="email">Емейл</label>
+                            <input class="form__input" type="text" name="email" placeholder="E-mail">
+                            <input class="button button--red-small" type="submit" value="Отправить">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
