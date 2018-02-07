@@ -4,7 +4,10 @@
 
 	<body>
 		{% include header.html %}
-		{% include page_content.html %}
+		<section class="section__content">
+		{% include title_content.html %}
+		{{ content }}
+		</section>
 		{% include footer.html %}
 		{% include modal.html %}
 		{% include js.html %}
