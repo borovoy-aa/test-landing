@@ -4,11 +4,13 @@
     src: local("Intro"),
          url(/fonts/intro.otf);
  }
+
  @font-face {
     font-family: CharterITC;
     src: local("charteritc"),
          url(/fonts/charteritc.otf);
  }
+ 
 .page-title {
     font-family: "Intro", sans-serif;
     text-transform: uppercase;
